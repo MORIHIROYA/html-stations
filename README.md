@@ -267,9 +267,9 @@ git merge upstream/main
 git push
 yarn install
 ```
-```
+
 src/station?.html
-```
+
 
 ### GitHubアカウントでサインアップしたので、パスワードがないという方へ
 
