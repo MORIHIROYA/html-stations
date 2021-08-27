@@ -250,7 +250,7 @@ git branch -a ←このコマンドを実行
 こちらで自分のリポジトリを TechBowl-japan/html-stations の最新の状態と合わせるための準備は終了です。
 
 ### 自分のリポジトリの状態を最新に更新
-src/station?.html
+
 ```
 git pull --rebase 
 
@@ -266,6 +266,9 @@ git fetch upstream
 git merge upstream/main
 git push
 yarn install
+```
+```
+src/station?.html
 ```
 
 ### GitHubアカウントでサインアップしたので、パスワードがないという方へ
