@@ -250,8 +250,10 @@ git branch -a ←このコマンドを実行
 こちらで自分のリポジトリを TechBowl-japan/html-stations の最新の状態と合わせるための準備は終了です。
 
 ### 自分のリポジトリの状態を最新に更新
-git pull --rebase を先にする
+src/station?.html
 ```
+git pull --rebase 
+
 # 自分の変更の状態を stash した上で次のコマンドを実行してください。
 
 # ↓main ブランチに移動するコマンド
