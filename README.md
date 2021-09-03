@@ -271,6 +271,11 @@ yarn install
 src/station?.html
 
 
+git commit にてエラーが発生した場合
+```
+del .git/index.lock
+```
+
 ### GitHubアカウントでサインアップしたので、パスワードがないという方へ
 
 https://techbowl.co.jp/techtrain/resetpassword
