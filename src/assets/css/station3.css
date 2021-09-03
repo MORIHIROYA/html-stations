@@ -1,7 +1,9 @@
+@charset "UTF-8";
 
 
-
-<body>{background-color:#fff;}
+body{
+      background-color:#ffffff;
+}
 
 .card__img-top{
                 width:288px;
@@ -19,4 +21,4 @@ p class="card__description"{
                             color: #282828;
                             padding-top:15;
                             
-</body>
+
