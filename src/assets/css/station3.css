@@ -2,23 +2,27 @@
 
 
 body{
-      background-color:#ffffff;
+      background-color: #ffffff;
+}
+
+.card{
+      padding-top:10;
 }
 
 .card__img-top{
                 width:288px;
                 height:182px;
-                margin-bottom:30
+                margin-bottom:30;
 }
 
 .card__title{
                       font-size: 14px;
                       color: #282828;
-                      padding-bottom:15;
+                     
 }
 .card__description{
                             font-size: 12px;
                             color: #282828;
-                            padding-top:15;
+                            
                             
 
