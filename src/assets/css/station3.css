@@ -1,12 +1,11 @@
 @charset "UTF-8";
 
 
-body{
-      background-color: #fff;
-}
+
 
 .card{
       padding:10em;
+            background-color: #ffffff;
 }
 
 .card__img-top{
