@@ -11,10 +11,11 @@ body{
 .card{
       padding:10em;
             background-color: #dddddd;
+            alt="これはカードである"
 }
 
 .card__img-top{
-                alt="これは電車である。"
+                alt="これは電車である。";
                 width:288px;
                 height:182px;
                 margin-bottom:10px;
