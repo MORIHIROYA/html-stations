@@ -10,11 +10,10 @@ body{
 }
 .card{
       padding:10em;
-            background-color: #;
+            background-color: #dddddd;
 }
 
 .card__img-top{
-                alt="電車"
                 width:288px;
                 height:182px;
                 margin-bottom:10px;
@@ -22,7 +21,7 @@ body{
 
 .card__title{
                       font-size: 14px;
-                      color: #282828;
+                      color: #000000;
                      
 }
 .card__description{
