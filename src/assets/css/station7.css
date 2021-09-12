@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+header{
+          background-color: #ffffff;
+}
+
+
+body{
+        background-color:#C4C4C4;
+}
+.card{
+      padding:10em;
+            background-color: #dddddd;
+        
+}
+
+.card__img-top{
+               
+                width:288px;
+                height:182px;
+                margin-bottom:10px;
+                 
+}
+
+.card__title{
+                      font-size: 14px;
+                      color: #000000;
+                     
+}
+.card__description{
+                            font-size: 12px;
+                            color: #282828;
+</body>
+
+footer{
+        background-color: #ffffff;
+        }
