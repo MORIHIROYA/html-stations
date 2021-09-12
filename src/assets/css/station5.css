@@ -11,7 +11,7 @@ body{
 .card{
       padding:10em;
             background-color: #dddddd;
-            alt="これはイメージである";
+        
 }
 
 .card__img-top{
@@ -19,7 +19,7 @@ body{
                 width:288px;
                 height:182px;
                 margin-bottom:10px;
-                alt="これはイメージである。";    
+                 
 }
 
 .card__title{
