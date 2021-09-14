@@ -33,6 +33,16 @@ header{
  
 }
 
+* {
+	float: none;
+	position: static;
+}
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .card{
       padding:10em;
             background-color: #dddddd;
