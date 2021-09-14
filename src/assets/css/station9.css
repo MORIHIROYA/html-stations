@@ -11,6 +11,27 @@ header{
     flex-wrap: wrap;            /* 折り返し指定 */
     align-content:stretch;      /* 折り返し時の配置指定 */
 }
+@media screen and (max-width:480px) {
+ 
+         .card{
+		width: 80%;
+		margin: 0px 0 10px 0;
+	}
+ 
+          .card__description{
+		width: 80%;
+	}
+ 
+	 .card__title {
+		width: 100%;
+	}
+ 
+	.card__img-top {
+		width: 100%;
+		margin: 30px 0 0 0;
+	}
+ 
+}
 
 .card{
       padding:10em;
