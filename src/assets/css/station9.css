@@ -28,7 +28,9 @@ header{
                       font-size: 2px;
                       color: #000000;
                      }
-.card__description{     font-size: 12px;
+.card__description{     
+			visibility:hidden;
+			font-size: 12px;
                         color: #282828;             
 			
 	}
