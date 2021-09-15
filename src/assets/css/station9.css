@@ -32,18 +32,13 @@ header{
 .card__description{		display: none; 
                             font-size: 12px;
                             color: #282828;
-			
+			}
+@media screen and (max-width: 320px){
+.card__description{
+		display:none
 	}
-
-@media screen and (min-width:0px) and (max-width:320){	
-      	
-	.card__description{    
-				display: none; 
-			    		
-	}		
-	
-
 }
+
 
 @media screen and (min-width:768px){
 
