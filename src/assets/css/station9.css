@@ -38,7 +38,9 @@ header{
 @media screen and (min-width:0px) and (max-width:320){	
       	
 	.card__description{     
-			 text-indent: 100%;             		
+			 text-indent:100%;
+white-space:nowrap;
+overflow:hidden;            		
 	}		
 	
 
