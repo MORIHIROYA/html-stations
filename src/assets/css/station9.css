@@ -36,11 +36,11 @@ header{
 @media screen and (min-width:768px) and (max-width:1199px){
 
 .card__title{
-    font-size: 6px;
+    font-size: 2px;
 }
 	
 	.card__description{
-                            font-size: 4px;
+                            font-size: 1px;
                             color: #282828;
 	}
 	
