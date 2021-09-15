@@ -25,22 +25,22 @@ header{
                  }
 
 .card__title{
-                      font-size: 8px;
+                      font-size: 4px;
                       color: #000000;
                      }
 .card__description{
-                             display:none;
+                           display: none;
 	
 }		
 	
 @media screen and (min-width:768px) and (max-width:1199px){
 
 .card__title{
-    font-size: 14px;
+    font-size: 6px;
 }
 	
 	.card__description{
-                            font-size: 8px;
+                            font-size: 4px;
                             color: #282828;
 	}
 	
