@@ -29,7 +29,7 @@ header{
                       color: #000000;
                      }
 .card__description{
-                           display: none;
+                           display: none!important;
 	
 }		
 	
