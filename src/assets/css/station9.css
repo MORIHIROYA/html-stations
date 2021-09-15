@@ -35,7 +35,8 @@ header{
 		
 @media screen and (min-width:320px){
 
-.card__description{     
+.card__description{     font-size: 16px;
+                        color: #282828
 			display:none;            		
 	}
 
