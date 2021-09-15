@@ -33,37 +33,32 @@ header{
 	
 }		
 	
-@media screen and (min-width:768px) 
-	.card__title{
-                      font-size: 10px;                  
-                     }
+@media screen and (min-width:768px) {
+
+.card__title{
+    font-size: 14px;
+}
+	
 	.card__description{
                             font-size: 8px;
                             color: #282828;
 	}
-	}
 	
-@media screen and (min-width:1200px)
-	.card__title{
+	
+@media screen and (min-width:1200px){
+.card__title{
                       font-size: 14px;
-                     }
+                }
 	.card__description{
 			    font-size: 12px;
                             color: #282828;
                            
 	}
 	
-	}
-	
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+}
+}
+</body>
 
+footer{
+        background-color: #ffffff;
+        }
