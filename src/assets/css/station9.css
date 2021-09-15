@@ -35,72 +35,24 @@ header{
 
 	
 @media screen and (min-width:768px) {
-	header{
-          background-color: #ffffff;
-}
-.card-container {
-    background-color: #C4C4C4;     /* 背景色指定 */
-    padding:  10px;             /* 余白指定 */
-    height: 300px;              /* 高さ指定 */
-    display: flex;              /* フレックスボックスにする */
-    flex-wrap: wrap;            /* 折り返し指定 */
-    align-content:stretch;      /* 折り返し時の配置指定 */
-}
- 
-.card{
-      padding:10em;
-            background-color: #dddddd;
-        }
-
-.card__img-top{
-               
-                width:288px;
-                height:182px;
-                margin-bottom:10px;
-                 }
-
-.card__title{
-                      font-size: 8px;
+	.card__title{
+                      font-size: 10px;
                       color: #000000;
                      }
-.card__description{
-                            font-size: 8px;
+	.card__description{
+                            font-size: 18px;
                             color: #282828;
-	
-	
-	
 	}
 	
-	
-	@media screen and (min-width:320px) {
-	header{
-          background-color: #ffffff;
-}
-.card-container {
-    background-color: #C4C4C4;     /* 背景色指定 */
-    padding:  10px;             /* 余白指定 */
-    height: 300px;              /* 高さ指定 */
-    display: flex;              /* フレックスボックスにする */
-    flex-wrap: wrap;            /* 折り返し指定 */
-    align-content:stretch;      /* 折り返し時の配置指定 */
-}
- 
-.card{
-      padding:10em;
-            background-color: #dddddd;
-        }
-
-.card__img-top{
-               
-                width:288px;
-                height:182px;
-                margin-bottom:10px;
-                 }
-
-.card__title{
-                      font-size: 6px;
+@media screen and (min-width:320px) {
+	.card__title{
+                      font-size: 10px;
                       color: #000000;
-                     }	
+                     }
+	.card__description{
+                            visibility: hidden;
+	}
+	
 	}
 	
 		
