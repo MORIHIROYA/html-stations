@@ -34,7 +34,7 @@ header{
 @media screen and (min-width:320px){	
       	
 	.card__description{     
-			display:block!important;             		
+			display:none!important;             		
 	}		
 	
 
