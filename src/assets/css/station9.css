@@ -41,7 +41,7 @@ header{
 }
 
 
-@media screen and (min-width:768px){
+@media screen and (max-width:768px){
 
 .card__title{
     font-size: 2px;
@@ -54,7 +54,7 @@ header{
 	}
 	
 	
-@media screen and (min-width:1200px){
+@media screen and (max-width:1200px){
 .card__title{
                       font-size: 14px;
                 }
