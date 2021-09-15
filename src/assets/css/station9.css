@@ -28,9 +28,8 @@ header{
                       font-size: 2px;
                       color: #000000;
                      }
-.card__description{
-        		font-size: 18px;
-                        color: #282828;                   
+.card__description{     font-size: 12px;
+                        color: #282828;             
 			display:none;
 	}
 		
