@@ -30,7 +30,7 @@ header{
                      }
 .card__description{     font-size: 12px;
                         color: #282828;             
-			display:none;
+			
 	}
 		
 	
@@ -43,6 +43,7 @@ header{
 	.card__description{
                             font-size: 12px;
                             color: #282828;
+			display:none;
 	}
 	
 	
