@@ -29,12 +29,10 @@ header{
                       color: #000000;
                      }
 .card__description{     
-			display:none!important; 
-			font-size: 16px;
-                        color: #282828;             		
+			display:none;             		
 	}
 @media screen and (min-width:320px){	
-      			display:block!important; 
+      			display:block; 
 
 }
 
