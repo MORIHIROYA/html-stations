@@ -7,13 +7,21 @@
     <title>Station 12</title>
   </head>
   <body>
-    <input id="Button1" type="button" value="button" onclick="exec();"/>
     <div class="card-container">
       <div class="card">
-          <p id="result"></p>
-        <script type="text/javascript" src="./scripts/station12-common.js"></script>
-    <script type="text/javascript" src="./scripts/station12.js"></script>
+        <p id="result"></p> ← これを知っておきたい！
       </div>
     </div>
+
+    /* station-common12.js を記述したもの */
+    /* もうすでに <p id="result"></p> を知っている状態 */
+    <script type="text/javascript">
+      var result = getData();
+      var elem = document.getElementById("result"); ← もうすでに <p id="result"></p> を知っているから期待通りに動いてくれる
+      console.log(elem); // <p id="result">Station12をクリア!</p> が表示される。
+      elem.innerHTML = result;
+    </script>
+
   </body>
 </html>
+
