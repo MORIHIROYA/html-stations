@@ -1,6 +1,6 @@
  
   function exec(){
-    var result = getData(4);
+    var result = getData();
     var elem = document.getElementById("result");
     elem.innerHTML = result;
   }
