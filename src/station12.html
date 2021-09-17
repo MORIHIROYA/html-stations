@@ -9,16 +9,13 @@
   <body>
     <div class="card-container">
       <div class="card">
-        <p id="result"></p> ← これを知っておきたい！
+        <p id="result"></p> 
       </div>
     </div>
-
-    /* station-common12.js を記述したもの */
-    /* もうすでに <p id="result"></p> を知っている状態 */
     <script type="text/javascript">
       var result = getData();
-      var elem = document.getElementById("result"); ← もうすでに <p id="result"></p> を知っているから期待通りに動いてくれる
-      console.log(elem); // <p id="result">Station12をクリア!</p> が表示される。
+      var elem = document.getElementById("result"); 
+      console.log(elem); 
       elem.innerHTML = result;
     </script>
 
