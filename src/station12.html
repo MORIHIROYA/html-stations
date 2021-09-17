@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="text/javascript" src="./scripts/station12.js"></script>
 
-    /* station-common12.js を記述したもの */
-    /* まだ <p id="result"></p> を知らない状態 */
+   
     <script type="text/javascript">
       var result = getData();
-      var elem = document.getElementById("result"); ← まだ <p id="result"></p> を知らないから期待通りに動いてくれない
-      console.log(elem); // null が表示される
+      var elem = document.getElementById("result"); 
+      console.log(elem); 
       elem.innerHTML = result;
     </script>
 
@@ -20,16 +19,15 @@
   <body>
     <div class="card-container">
       <div class="card">
-        <p id="result"></p> ← これを知っておきたい！
+        <p id="result"></p> 
       </div>
     </div>
 
-    /* station-common12.js を記述したもの */
-    /* もうすでに <p id="result"></p> を知っている状態 */
+    
     <script type="text/javascript">
       var result = getData();
-      var elem = document.getElementById("result"); ← もうすでに <p id="result"></p> を知っているから期待通りに動いてくれる
-      console.log(elem); // <p id="result">Station12をクリア!</p> が表示される。
+      var elem = document.getElementById("result"); 
+      console.log(elem); // <p id="result">Station12をクリア!</p> 
       elem.innerHTML = result;
     </script>
 
