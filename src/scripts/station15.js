@@ -10,7 +10,16 @@ async function getData() {
   return await result
 }
 
-function test() {
-  return
+function test(userList) {
+  promise = new Promise((resolve)=>{
+    setTimeout(() => {
+      const result = userList.map((v) =>({
+        ...v
+        full_name: '${v.family_name}${v.first_name}',
+      }));
+      resolve(result);
+    },3000);
+  });
+  return promise;
 }
 
