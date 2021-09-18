@@ -1,3 +1,4 @@
+const { fromNullable } = ("fp-ts/lib/Option");
 async function getData() {
   // Promiseを使った実装をやってみましょう！APIとの通信でよく使う表現になります！
   // ３秒後にフルネームのリストを表示されるようにしましょう。
