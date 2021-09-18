@@ -13,8 +13,10 @@ async function getData() {
 function test(userList) {
   return new Promise(function (resolve, reject) {
          setTimeout(function () {
+           const full_name = data.family_name + ' ' + data.first_name
+              data["full_name"] = full_name;              
              console.log();
-             resolve();
+              resolve();
          }, 3000);
      });
 }
