@@ -22,4 +22,4 @@ function test(userList) {
     },3000);
   });
   return promise;
-}
+};
