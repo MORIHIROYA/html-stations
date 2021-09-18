@@ -20,5 +20,5 @@ function test(userList) {
       resolve(result);
     },3000);
   });
-  return data;
+  return userList;
 };
