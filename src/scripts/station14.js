@@ -12,7 +12,7 @@ function getData() {
 }
 
 function buildFullName(data) {
-  const full_name = data.family_name + ' ' + data.first_name
+  const full_name = data.family_name + ' ' + data.first_name;
   data["full_name"] = full_nema;
   return data                             // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
 }
