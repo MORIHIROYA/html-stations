@@ -14,9 +14,9 @@ async function getData() {
 function test(userList) {
   promise = new Promise((resolve)=>{
     setTimeout(() => {
-      const userList.map = result
       const result = userList.map((v) =>({
-        full_name: '${v.family_name}${v.first_name}',
+        const full_name = data.family_name + ' ' + data.first_name
+  data["full_name"] = full_name;
       }));
       resolve(result);
     },3000);
