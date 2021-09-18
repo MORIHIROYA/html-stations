@@ -10,12 +10,9 @@ function getData() {
 }
 
 function buildFullName(data) {
-  const family_name = const test[2];
-   const first_name = const test[1]; 
-  full_name = family_name + first_name;
- test[1],test[1] = "full_name:"+ full_name  ;
-console.log(test);                                                       // 氏名がわかるようにしつつ、半角スペースで繋いでください。
-                                                                        // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
+  const full_name = data.family_name + ' ' + data.first_name
+  data["full_name"] = full_nema;
+  return data                             // またtest配列のそれぞれのオブジェクトに対して、full_nameのプロパティが追加されるように実装すること
 }
 
 // 出力が想定される答え
