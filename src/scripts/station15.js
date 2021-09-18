@@ -19,7 +19,7 @@ function test(userList) {
         full_name: '${v.family_name}${v.first_name}',
       }));
       resolve(result);
-    },4000);
+    },3500);
   });
   return promise;
 }
