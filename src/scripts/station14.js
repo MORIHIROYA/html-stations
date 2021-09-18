@@ -10,8 +10,8 @@ function getData() {
 }
 
 function buildFullName(data) {
-  family_name = test[2];
-   first_name = test[1]; 
+  const family_name = test[2];
+   const first_name = test[1]; 
   full_name = family_name + first_name;
  test[1],test[1] = "full_name:"+ full_name  ;
 console.log(test);                                                       // 氏名がわかるようにしつつ、半角スペースで繋いでください。
