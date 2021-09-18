@@ -14,7 +14,7 @@ async function getData() {
 function test(userList) {
     setTimeout(() => {
       const result = userList.map((v) =>({
-        const full_name = data.family_name + ' ' + data.first_name
+        const full_name = userList.family_name + ' ' + userList.first_name
   data["full_name"] = full_name;
       }));
       resolve(result);
