@@ -11,15 +11,17 @@ async function getData() {
   return await result
 }
 
-function test(userList) {
-    promise = new Promise((resolve)=>{
-    setTimeout(() => {
-      resolve(result);
+async function test() {
+  return new Promise (function(resolve){
+    setTimeout(function() {
+      resolve('test')
     },3000);
-    const result = userList.map((v) =>({
-        full_name: '${v.family_name}${v.first_name}',
-      }));
-  
+  }).then(function(value) {
+    console.log(value);
+    const test = [
+     { id: 1, first_name: '優', family_name: '大木', affilication: 'TechTrain', is_student: false },
+    { id: 2, first_name: '太郎', family_name: '山田', affilication: 'HogeHoge大学', is_student: true }
+    ];
+    return test.map
   });
-  return test.map;
-};
+}
