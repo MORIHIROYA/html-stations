@@ -12,11 +12,11 @@ async function getData() {
 }
 
 function test(userList) {
-  promise = new Promise((resolve)=>{
-    setTimeout(() => {
-      const result = userList.map((v) =>({
+    const result = userList.map((v) =>({
         full_name: '${v.family_name}${v.first_name}',
       }));
+  promise = new Promise((resolve)=>{
+    setTimeout(() => {
       resolve(result);
     },3000);
   });
