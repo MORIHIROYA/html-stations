@@ -8,7 +8,7 @@ async function getData() {
     { id: 2, first_name: '太郎', family_name: '山田', affilication: 'HogeHoge大学', is_student: true }
   ];
   const result = await test()
-  return await result
+  return test
 }
 
 async function test() {
@@ -19,9 +19,9 @@ async function test() {
   }).then(function(value) {
     console.log(value);
     const test = [
-     { id: 1, full_name: '大木優', first_name: '優', family_name: '大木', affilication: 'TechTrain', is_student: false },
-    { id: 2, full_name: '山田太郎', first_name: '太郎', family_name: '山田', affilication: 'HogeHoge大学', is_student: true }
+     { id: 1, full_name: '大木 優', first_name: '優', family_name: '大木', affilication: 'TechTrain', is_student: false },
+    { id: 2, full_name: '山田 太郎', first_name: '太郎', family_name: '山田', affilication: 'HogeHoge大学', is_student: true }
     ];
-    return test
+    return test.map
   });
 }
